@@ -8,17 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		F266D0012BF276340055BEA3 /* SwiftStateMachineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F266D0002BF276340055BEA3 /* SwiftStateMachineApp.swift */; };
-		F266D0032BF276340055BEA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F266D0022BF276340055BEA3 /* ContentView.swift */; };
 		F266D0052BF276360055BEA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F266D0042BF276360055BEA3 /* Assets.xcassets */; };
 		F266D0082BF276360055BEA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F266D0072BF276360055BEA3 /* Preview Assets.xcassets */; };
+		F266D0152BF278420055BEA3 /* MamaCookingTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F266D0142BF278420055BEA3 /* MamaCookingTabView.swift */; };
+		F266D0172BF278560055BEA3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F266D0162BF278560055BEA3 /* HomeView.swift */; };
+		F266D0192BF278610055BEA3 /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F266D0182BF278610055BEA3 /* RecipesView.swift */; };
+		F266D01B2BF27BFA0055BEA3 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F266D01A2BF27BFA0055BEA3 /* HomeViewModel.swift */; };
+		F266D0232BF27C5C0055BEA3 /* StateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F266D0222BF27C5C0055BEA3 /* StateMachine.swift */; };
+		F266D0252BF27C6F0055BEA3 /* StateMachineProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F266D0242BF27C6F0055BEA3 /* StateMachineProtocol.swift */; };
+		F266D0282BF2A0FF0055BEA3 /* Servers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F266D0272BF2A0FF0055BEA3 /* Servers.swift */; };
+		F266D02C2BF2A4B40055BEA3 /* ServedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F266D02B2BF2A4B40055BEA3 /* ServedView.swift */; };
+		F266D0302BF2AA0A0055BEA3 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = F266D02F2BF2AA0A0055BEA3 /* Food.swift */; };
+		F266D0322BF2AA150055BEA3 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F266D0312BF2AA150055BEA3 /* Ingredient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F266CFFD2BF276340055BEA3 /* SwiftStateMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStateMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F266D0002BF276340055BEA3 /* SwiftStateMachineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStateMachineApp.swift; sourceTree = "<group>"; };
-		F266D0022BF276340055BEA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F266D0042BF276360055BEA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F266D0072BF276360055BEA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F266D0142BF278420055BEA3 /* MamaCookingTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MamaCookingTabView.swift; sourceTree = "<group>"; };
+		F266D0162BF278560055BEA3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F266D0182BF278610055BEA3 /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesView.swift; sourceTree = "<group>"; };
+		F266D01A2BF27BFA0055BEA3 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F266D0222BF27C5C0055BEA3 /* StateMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateMachine.swift; sourceTree = "<group>"; };
+		F266D0242BF27C6F0055BEA3 /* StateMachineProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateMachineProtocol.swift; sourceTree = "<group>"; };
+		F266D0272BF2A0FF0055BEA3 /* Servers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Servers.swift; sourceTree = "<group>"; };
+		F266D02B2BF2A4B40055BEA3 /* ServedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServedView.swift; sourceTree = "<group>"; };
+		F266D02F2BF2AA0A0055BEA3 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		F266D0312BF2AA150055BEA3 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +69,9 @@
 		F266CFFF2BF276340055BEA3 /* SwiftStateMachine */ = {
 			isa = PBXGroup;
 			children = (
-				F266D0002BF276340055BEA3 /* SwiftStateMachineApp.swift */,
-				F266D0022BF276340055BEA3 /* ContentView.swift */,
+				F266D02D2BF2A9F60055BEA3 /* Domain */,
+				F266D00E2BF277F50055BEA3 /* Modules */,
+				F266D0292BF2A2B60055BEA3 /* System */,
 				F266D0042BF276360055BEA3 /* Assets.xcassets */,
 				F266D0062BF276360055BEA3 /* Preview Content */,
 			);
@@ -65,6 +84,94 @@
 				F266D0072BF276360055BEA3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F266D00E2BF277F50055BEA3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F266D02A2BF2A4A30055BEA3 /* Served */,
+				F266D0112BF2781E0055BEA3 /* Tab */,
+				F266D0102BF278080055BEA3 /* Recipes */,
+				F266D00F2BF278030055BEA3 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F266D00F2BF278030055BEA3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F266D0162BF278560055BEA3 /* HomeView.swift */,
+				F266D01A2BF27BFA0055BEA3 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F266D0102BF278080055BEA3 /* Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				F266D0182BF278610055BEA3 /* RecipesView.swift */,
+			);
+			path = Recipes;
+			sourceTree = "<group>";
+		};
+		F266D0112BF2781E0055BEA3 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				F266D0142BF278420055BEA3 /* MamaCookingTabView.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		F266D01D2BF27C0B0055BEA3 /* StateMachine */ = {
+			isa = PBXGroup;
+			children = (
+				F266D0222BF27C5C0055BEA3 /* StateMachine.swift */,
+				F266D0242BF27C6F0055BEA3 /* StateMachineProtocol.swift */,
+			);
+			path = StateMachine;
+			sourceTree = "<group>";
+		};
+		F266D0262BF2A0CF0055BEA3 /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+				F266D0272BF2A0FF0055BEA3 /* Servers.swift */,
+			);
+			path = Environments;
+			sourceTree = "<group>";
+		};
+		F266D0292BF2A2B60055BEA3 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				F266D0002BF276340055BEA3 /* SwiftStateMachineApp.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		F266D02A2BF2A4A30055BEA3 /* Served */ = {
+			isa = PBXGroup;
+			children = (
+				F266D02B2BF2A4B40055BEA3 /* ServedView.swift */,
+			);
+			path = Served;
+			sourceTree = "<group>";
+		};
+		F266D02D2BF2A9F60055BEA3 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				F266D0262BF2A0CF0055BEA3 /* Environments */,
+				F266D01D2BF27C0B0055BEA3 /* StateMachine */,
+				F266D02E2BF2AA020055BEA3 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		F266D02E2BF2AA020055BEA3 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				F266D02F2BF2AA0A0055BEA3 /* Food.swift */,
+				F266D0312BF2AA150055BEA3 /* Ingredient.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +244,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F266D0032BF276340055BEA3 /* ContentView.swift in Sources */,
+				F266D0152BF278420055BEA3 /* MamaCookingTabView.swift in Sources */,
+				F266D01B2BF27BFA0055BEA3 /* HomeViewModel.swift in Sources */,
+				F266D02C2BF2A4B40055BEA3 /* ServedView.swift in Sources */,
+				F266D0172BF278560055BEA3 /* HomeView.swift in Sources */,
+				F266D0232BF27C5C0055BEA3 /* StateMachine.swift in Sources */,
+				F266D0192BF278610055BEA3 /* RecipesView.swift in Sources */,
+				F266D0252BF27C6F0055BEA3 /* StateMachineProtocol.swift in Sources */,
+				F266D0302BF2AA0A0055BEA3 /* Food.swift in Sources */,
+				F266D0282BF2A0FF0055BEA3 /* Servers.swift in Sources */,
 				F266D0012BF276340055BEA3 /* SwiftStateMachineApp.swift in Sources */,
+				F266D0322BF2AA150055BEA3 /* Ingredient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,8 @@ import SwiftUI
 struct SwiftStateMachineApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MamaCookingTabView()
+				.environmentObject(Servers.shared)
         }
     }
 }
