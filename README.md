@@ -1,4 +1,4 @@
-# Movie + iTunes
+# CookingApp - SwiftUI - State Machine
 
 ![This is an image](https://ik.imagekit.io/m1ke1magek1t/CookingApp(1)_AxIqdgBiJ.png?updatedAt=1715702528309)
 
