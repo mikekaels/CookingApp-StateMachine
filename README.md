@@ -1,5 +1,5 @@
 # CookingApp - SwiftUI - State Machine
-[reference](https://medium.com/@BIT_OFIT/swiftui-mvvm-with-a-statemachine-46530b2903b9)
+SwiftUI — MVVM with a StateMachine [(Medium article)](https://medium.com/@BIT_OFIT/swiftui-mvvm-with-a-statemachine-46530b2903b9)
 
 ![This is an image](https://ik.imagekit.io/m1ke1magek1t/CookingApp(1)_AxIqdgBiJ.png?updatedAt=1715702528309)
 
