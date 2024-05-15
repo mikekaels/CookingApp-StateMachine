@@ -6,5 +6,4 @@ SwiftUI — MVVM with a StateMachine [(Medium article)](https://medium.com/@BIT_
 ## Features
 - Reject order
 - Proceed order
-- Reject order
 - Serve order
